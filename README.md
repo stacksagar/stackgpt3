@@ -1,4 +1,5 @@
-## <a href="#"> From Figma Design 😎 </a>
+## <a target="__blank" href="https://www.figma.com/file/nINoevX4CDZd9H4gTpW2ny/stackgpt3"> From Figma Design 😎 </a>
+
 ###### `GPT-3` [See Live Preview](https://stacksagar.github.io/stackgpt3 "project of @stacksagar")
 
 [Figma Design](https://www.figma.com/file/nINoevX4CDZd9H4gTpW2ny/stackgpt3 "Figma Design")
