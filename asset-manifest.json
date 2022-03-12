@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/stackgpt3/static/css/main.dd4e2ea0.css",
+    "main.js": "/stackgpt3/static/js/main.382c5046.js",
+    "static/media/possibilitys.png": "/stackgpt3/static/media/possibilitys.aa58f897b986ed0e2389.png",
+    "static/media/blog01.png": "/stackgpt3/static/media/blog01.b3728c8f623bcad7493c.png",
+    "static/media/blog04.png": "/stackgpt3/static/media/blog04.c798d681f2d54fa3f5dc.png",
+    "static/media/blog03.png": "/stackgpt3/static/media/blog03.da444921b231f687c39b.png",
+    "static/media/blog05.png": "/stackgpt3/static/media/blog05.6044fa3b37edf3dc7403.png",
+    "static/media/blog02.png": "/stackgpt3/static/media/blog02.2c1fb2dd94a49692efb4.png",
+    "static/media/ai.png": "/stackgpt3/static/media/ai.18d4eaf469d2fdf5e715.png",
+    "index.html": "/stackgpt3/index.html",
+    "main.dd4e2ea0.css.map": "/stackgpt3/static/css/main.dd4e2ea0.css.map",
+    "main.382c5046.js.map": "/stackgpt3/static/js/main.382c5046.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd4e2ea0.css",
+    "static/js/main.382c5046.js"
+  ]
+}
