@@ -1,0 +1,77 @@
+.blogs > article:nth-of-type(1) {
+  grid-area: blog1;
+}
+.blogs > article:nth-of-type(2) {
+  grid-area: blog2;
+}
+.blogs > article:nth-of-type(3) {
+  grid-area: blog3;
+}
+.blogs > article:nth-of-type(4) {
+  grid-area: blog4;
+}
+.blogs > article:nth-of-type(5) {
+  grid-area: blog5;
+}
+
+.blogs {
+  display: grid;
+  grid-template-areas:
+    "blog1 blog1 blog2 blog2 blog3 blog3"
+    "blog1 blog1 blog4 blog4 blog5 blog5";
+  gap: 30px;
+}
+
+.blogs > .article {
+  background-color: #042c54;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article > img {
+  max-width: 100%;
+}
+.article > .article-content {
+  padding: 20px;
+  margin-bottom: auto;
+}
+.article > .article-content > p {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.article > button {
+  margin: 20px;
+  background: unset;
+  font-size: 25px;
+  color: #f5bdff;
+  cursor: pointer;
+  display: block;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1023.5px) {
+  .blogs {
+    display: grid;
+    grid-template-areas:
+      "blog2 blog3"
+      "blog4 blog5"
+      "blog1 blog1";
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blogs {
+    display: grid;
+    grid-template-areas:
+      "blog1"
+      "blog2"
+      "blog3"
+      "blog4"
+      "blog5";
+    gap: 30px;
+  }
+}

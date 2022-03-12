@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-content {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.header-content > h1 {
+  font-size: 50px;
+}
+.email-box {
+  width: 100%;
+  display: flex;
+}
+.email-box > input {
+  width: 100%;
+  padding: 10px;
+}
+.email-box > button {
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  border-radius: 0px 4px 4px 0px;
+  background: #ff4820;
+  color: #fff;
+}
+
+.email-box > button:hover {
+  box-shadow: 0px 0px 3px 0px #ddd;
+}
+
+.email-box > button:focus {
+  box-shadow: 0px 0px 0px 0px transparent;
+  outline: 3px solid #ddd;
+}
+
+.people-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.people-area > img {
+  margin-right: 10px;
+}
+
+.header-image {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.header-image > img {
+  width: 90%;
+}
+
+@media screen and (max-width: 550px) {
+  .people-area {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .email-box > button {
+    padding: 6px !important;
+    width: 120px;
+  }
+  .header {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 1023.5px) {
+  .header {
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .header-content {
+    text-align: center;
+  }
+
+  .header-content > h1 {
+    font-size: 35px;
+  }
+}
